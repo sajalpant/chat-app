@@ -1,5 +1,3 @@
-# chat-app
-
 ### CSS Styles
 
 All the layouts are based on default UIkit styles to keep things clean and simple, but some layouts may use some custom css code.

@@ -7,6 +7,7 @@ const app=express();
 app.use('/',(req,res)=>{
     res.send('Chat App Server');
 })
+
 const server=http.createServer(app);
 const io=socketio(server);
 io.on('connection',(socket)=>{
